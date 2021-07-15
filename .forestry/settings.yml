@@ -4,29 +4,19 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: content/search
-  label: Search
-  create: all
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/about
+- type: heading
+  label: Content
+- type: document
+  path: content/about/_index.md
   label: About
-  create: all
+  match: "**/*"
+- type: document
+  path: content/contact/_index.md
+  label: Contact
   match: "**/*"
 - type: directory
   path: content/blog
   label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
   create: all
   match: "**/*"
 upload_dir: static/uploads
