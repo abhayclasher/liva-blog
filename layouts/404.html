@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h4 class="widget-title">{{ .Title | markdownify }}</h4>
+        <div class="content">
+          <b>Oops!</b> Looks like the page your looking for has been recently deleted or never existed.
+          <div></div>
+          <a href="{{ .Site.BaseURL }}" class="btn btn-outline-primary">Home ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}
