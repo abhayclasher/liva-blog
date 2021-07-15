@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://localhost:1313/"
+baseURL = "https://cheryl-blog.netlify.app/"
 languageCode = "en-us"
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
