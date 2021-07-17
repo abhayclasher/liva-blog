@@ -1,2 +1,2 @@
-# cheryl-blog
-A blog for Cheryl using liva hugo
+# liva-blog
+A blog using liva hugo
